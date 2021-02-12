@@ -33,6 +33,8 @@ github.com/onsi/gomega v1.4.1/go.mod h1:C1qb7wdrVGGVU+Z6iS04AVkA3Q65CEZX59MT0QO5
 github.com/onsi/gomega v1.4.3/go.mod h1:ex+gbHU/CVuBBDIJjb2X0qEXbFg53c61hWP/1CpauHY=
 github.com/tjaxer/mtcd v0.0.0-20210212180202-7ad8931a83d1 h1:svhvPFrpZzWnrZMG1w0OXKcT//y/XCFWGnEkRrpbneY=
 github.com/tjaxer/mtcd v0.0.0-20210212180202-7ad8931a83d1/go.mod h1:TCUdv9KOLTKMnxd2WdHdbd1TaXDMrUnm55kCVug8KDY=
+github.com/tjaxer/mtcutil v0.0.0-20210212180741-1680833c3bb9 h1:kZEv3uOrKo8i5UnW/sdZxiKpV7IyKCu+lK0lP+yZw4Q=
+github.com/tjaxer/mtcutil v0.0.0-20210212180741-1680833c3bb9/go.mod h1:TVF8keOTbI89tN//LRFNZ1D4gh8w9WoB4tOIRvxpaLc=
 golang.org/x/crypto v0.0.0-20170930174604-9419663f5a44 h1:9lP3x0pW80sDI6t1UMSLA4to18W7R7imwAI/sWS9S8Q=
 golang.org/x/crypto v0.0.0-20170930174604-9419663f5a44/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
