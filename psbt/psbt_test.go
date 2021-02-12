@@ -11,11 +11,11 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/tjaxer/mtcutil"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/tjaxer/mtcd/chaincfg/chainhash"
 	"github.com/tjaxer/mtcd/txscript"
 	"github.com/tjaxer/mtcd/wire"
+	"github.com/tjaxer/mtcutil"
 )
 
 // Test vectors from:
@@ -1369,7 +1369,7 @@ func TestWitnessForNonWitnessUtxo(t *testing.T) {
 			}},
 			TxOut: []*wire.TxOut{{
 				PkScript: outPkScript,
-				Value:    1.9 * btcutil.SatoshiPerBitcoin,
+				Value:    1.9 * mtcutil.SatoshiPerBitcoin,
 			}},
 		},
 		Inputs:  []PInput{{}},

@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"crypto/sha256"
 
-	"github.com/tjaxer/mtcutil"
 	"github.com/tjaxer/mtcd/txscript"
 	"github.com/tjaxer/mtcd/wire"
+	"github.com/tjaxer/mtcutil"
 )
 
 // Updater encapsulates the role 'Updater' as specified in BIP174; it accepts
@@ -125,7 +125,7 @@ func (p *Updater) addPartialSignature(inIndex int, sig []byte,
 		if pInput.RedeemScript != nil {
 			outIndex := p.Upsbt.UnsignedTx.TxIn[inIndex].PreviousOutPoint.Index
 			scriptPubKey := pInput.NonWitnessUtxo.TxOut[outIndex].PkScript
-			scriptHash := btcutil.Hash160(pInput.RedeemScript)
+			scriptHash := mtcutil.Hash160(pInput.RedeemScript)
 
 			scriptHashScript, err := txscript.NewScriptBuilder().
 				AddOp(txscript.OP_HASH160).
@@ -155,7 +155,7 @@ func (p *Updater) addPartialSignature(inIndex int, sig []byte,
 
 		var script []byte
 		if pInput.RedeemScript != nil {
-			scriptHash := btcutil.Hash160(pInput.RedeemScript)
+			scriptHash := mtcutil.Hash160(pInput.RedeemScript)
 			scriptHashScript, err := txscript.NewScriptBuilder().
 				AddOp(txscript.OP_HASH160).
 				AddData(scriptHash).
@@ -195,7 +195,7 @@ func (p *Updater) addPartialSignature(inIndex int, sig []byte,
 			}
 		} else {
 			// Otherwise, this is a p2wkh input.
-			pubkeyHash := btcutil.Hash160(pubkey)
+			pubkeyHash := mtcutil.Hash160(pubkey)
 			pubkeyHashScript, err := txscript.NewScriptBuilder().
 				AddOp(txscript.OP_0).
 				AddData(pubkeyHash).
