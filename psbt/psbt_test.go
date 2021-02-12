@@ -11,7 +11,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/tjaxer/mtcutil"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/tjaxer/mtcd/chaincfg/chainhash"
 	"github.com/tjaxer/mtcd/txscript"

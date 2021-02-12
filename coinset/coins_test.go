@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mtcd/chaincfg/chainhash"
 	"github.com/tjaxer/mtcd/wire"
+	"github.com/tjaxer/mtcutil"
 	"github.com/tjaxer/mtcutil/coinset"
 )
 

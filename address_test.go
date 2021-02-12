@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mtcd/chaincfg"
 	"github.com/tjaxer/mtcd/wire"
+	"github.com/tjaxer/mtcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

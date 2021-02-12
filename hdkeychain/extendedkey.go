@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mtcd/btcec"
 	"github.com/tjaxer/mtcd/chaincfg"
 	"github.com/tjaxer/mtcd/chaincfg/chainhash"
+	"github.com/tjaxer/mtcutil"
 	"github.com/tjaxer/mtcutil/base58"
 )
 
