@@ -11,7 +11,7 @@ import (
 	"github.com/tjaxer/mtcd/btcec"
 	"github.com/tjaxer/mtcd/chaincfg"
 	"github.com/tjaxer/mtcd/chaincfg/chainhash"
-	"github.com/tjaxer/utcutil/base58"
+	"github.com/tjaxer/mtcutil/base58"
 )
 
 // ErrMalformedPrivateKey describes an error where a WIF-encoded private

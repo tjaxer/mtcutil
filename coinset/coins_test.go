@@ -14,7 +14,7 @@ import (
 	"github.com/btcsuite/btcutil"
 	"github.com/tjaxer/mtcd/chaincfg/chainhash"
 	"github.com/tjaxer/mtcd/wire"
-	"github.com/tjaxer/utcutil/coinset"
+	"github.com/tjaxer/mtcutil/coinset"
 )
 
 type TestCoin struct {

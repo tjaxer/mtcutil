@@ -11,7 +11,7 @@ import (
 
 	"github.com/tjaxer/mtcd/chaincfg/chainhash"
 	"github.com/tjaxer/mtcd/wire"
-	"github.com/tjaxer/utcutil/bloom"
+	"github.com/tjaxer/mtcutil/bloom"
 )
 
 // This example demonstrates how to create a new bloom filter, add a transaction

@@ -13,7 +13,7 @@ import (
 	"github.com/tjaxer/mtcd/chaincfg/chainhash"
 	"github.com/tjaxer/mtcd/txscript"
 	"github.com/tjaxer/mtcd/wire"
-	"github.com/tjaxer/utcutil/gcs"
+	"github.com/tjaxer/mtcutil/gcs"
 )
 
 const (

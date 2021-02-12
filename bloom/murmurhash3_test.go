@@ -7,7 +7,7 @@ package bloom_test
 import (
 	"testing"
 
-	"github.com/tjaxer/utcutil/bloom"
+	"github.com/tjaxer/mtcutil/bloom"
 )
 
 // TestMurmurHash3 ensure the MurmurHash3 function produces the correct hash

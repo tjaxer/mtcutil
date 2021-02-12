@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/tjaxer/mtcd/wire"
-	"github.com/tjaxer/utcutil/txsort"
+	"github.com/tjaxer/mtcutil/txsort"
 )
 
 // TestSort ensures the transaction sorting works according to the BIP.

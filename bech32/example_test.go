@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/tjaxer/utcutil/bech32"
+	"github.com/tjaxer/mtcutil/bech32"
 )
 
 // This example demonstrates how to decode a bech32 encoded string.

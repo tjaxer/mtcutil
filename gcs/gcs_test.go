@@ -11,7 +11,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tjaxer/utcutil/gcs"
+	"github.com/tjaxer/mtcutil/gcs"
 )
 
 var (

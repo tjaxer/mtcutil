@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/tjaxer/utcutil/base58"
+	"github.com/tjaxer/mtcutil/base58"
 )
 
 var (

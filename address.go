@@ -13,8 +13,8 @@ import (
 
 	"github.com/tjaxer/mtcd/btcec"
 	"github.com/tjaxer/mtcd/chaincfg"
-	"github.com/tjaxer/utcutil/base58"
-	"github.com/tjaxer/utcutil/bech32"
+	"github.com/tjaxer/mtcutil/base58"
+	"github.com/tjaxer/mtcutil/bech32"
 	"golang.org/x/crypto/ripemd160"
 )
 

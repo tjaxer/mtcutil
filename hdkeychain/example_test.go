@@ -8,7 +8,7 @@ import (
 	"fmt"
 
 	"github.com/tjaxer/mtcd/chaincfg"
-	"github.com/tjaxer/utcutil/hdkeychain"
+	"github.com/tjaxer/mtcutil/hdkeychain"
 )
 
 // This example demonstrates how to generate a cryptographically random seed
