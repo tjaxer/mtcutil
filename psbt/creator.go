@@ -5,7 +5,7 @@
 package psbt
 
 import (
-	"github.com/btcsuite/btcd/wire"
+	"github.com/tjaxer/mtcd/wire"
 )
 
 // MinTxVersion is the lowest transaction version that we'll permit.

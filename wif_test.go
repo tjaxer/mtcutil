@@ -9,9 +9,9 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/btcsuite/btcd/btcec"
-	"github.com/btcsuite/btcd/chaincfg"
 	. "github.com/btcsuite/btcutil"
+	"github.com/tjaxer/mtcd/btcec"
+	"github.com/tjaxer/mtcd/chaincfg"
 )
 
 func TestEncodeDecodeWIF(t *testing.T) {
